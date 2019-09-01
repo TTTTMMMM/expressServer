@@ -4,8 +4,10 @@
   "description": "https://www.youtube.com/watch?v=L72fhGm1tfE",
   "main": "app.js",
   "scripts": {
-    "start": "node appHttps",
-    "dev": "nodemon appHttps"
+    "startSecure": "node appHttps",
+    "devSecure": "nodemon appHttps",
+    "startUnsecure": "node app",
+    "devUnsecure": "nodemon app"
   },
   "keywords": [],
   "author": "",
