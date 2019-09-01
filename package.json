@@ -4,8 +4,8 @@
   "description": "https://www.youtube.com/watch?v=L72fhGm1tfE",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
-    "dev": "nodemon app"
+    "start": "node appHttps",
+    "dev": "nodemon appHttps"
   },
   "keywords": [],
   "author": "",
