@@ -4,8 +4,9 @@ const path = require('path');
 
 const server = express();
 
+oneDay = 60*1000*60*24*1;
 // Set a static folder
-server.use(express.static(path.join(__dirname, 'public')));
+server.use(express.static(path.join(__dirname, 'public'), {maxAge: oneDay}));
 
 const PORT = process.env.PORT || 5001;
 

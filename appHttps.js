@@ -11,7 +11,9 @@ Certificate Generation Tutorial: https://ryanparman.com/posts/2019/how-to-create
 
 const serverHttps = express();
 
-serverHttps.use(express.static(path.join(__dirname, 'public')));  // Set a static folder
+oneDay = 60*1000*60*24*110;
+
+serverHttps.use(express.static(path.join(__dirname, 'public'), {maxAge: oneDay}));  // Set a static folder
 
 
 const PORT = process.env.PORT || 5001;
