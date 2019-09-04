@@ -4,7 +4,8 @@ const path = require('path');
 
 const server = express();
 
-oneDay = 60*1000*60*24*1;
+oneDay = 60*1000*60*24*110; //on hundred and ten days cache
+
 // Set a static folder
 server.use(express.static(path.join(__dirname, 'public'), {maxAge: oneDay}));
 

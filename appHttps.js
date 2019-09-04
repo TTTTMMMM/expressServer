@@ -11,7 +11,7 @@ Certificate Generation Tutorial: https://ryanparman.com/posts/2019/how-to-create
 
 const serverHttps = express();
 
-oneDay = 60*1000*60*24*110;
+oneDay = 60*1000*60*24*110; //on hundred and ten days cache
 
 serverHttps.use(express.static(path.join(__dirname, 'public'), {maxAge: oneDay}));  // Set a static folder
 
