@@ -1,7 +1,7 @@
 {
   "name": "expressserver",
   "version": "1.0.0",
-  "description": "https://www.youtube.com/watch?v=L72fhGm1tfE",
+  "description": "https://www.youtube.com/watch?v=L72fhGm1tfE ; public folder is fed from sandyProj, as I run npm run prod",
   "main": "app.js",
   "scripts": {
     "startSecure": "node appHttps",
